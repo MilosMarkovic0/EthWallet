@@ -1,0 +1,2689 @@
+{
+	"info": {
+		"_postman_id": "7d2e33e0-8d5f-4b5c-8de0-4763f8bdd995",
+		"name": "Linkedly — HTTP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11116020"
+	},
+	"item": [
+		{
+			"name": "API",
+			"item": [
+				{
+					"name": "API TESTING",
+					"item": [
+						{
+							"name": "LIST",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "x-api-key",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "c8229c9a3182fc7b4603fa3c9c68c8d46bb315b95cffec91c909236f9a2b862c",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/users/64dc95fb77013fc7bb4a8be1",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"users",
+										"64dc95fb77013fc7bb4a8be1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "x-api-key",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "c8229c9a3182fc7b4603fa3c9c68c8d46bb315b95cffec91c909236f9a2b862c",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/apis/64f89e83dcdd0bb34617baaf",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"apis",
+										"64f89e83dcdd0bb34617baaf"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CREATE",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "x-api-key",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "c8229c9a3182fc7b4603fa3c9c68c8d46bb315b95cffec91c909236f9a2b862c",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/apis",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"apis"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UPDATE",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "key",
+											"value": "x-api-key",
+											"type": "string"
+										},
+										{
+											"key": "value",
+											"value": "c8229c9a3182fc7b4603fa3c9c68c8d46bb315b95cffec91c909236f9a2b862c",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"LOL\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/tags/64e930405bc377c7e57f9f37",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"tags",
+										"64e930405bc377c7e57f9f37"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/apis/64f89f3e11b0887f80f42a21",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"apis",
+										"64f89f3e11b0887f80f42a21"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Campaign",
+							"request": {
+								"auth": {
+									"type": "apikey",
+									"apikey": [
+										{
+											"key": "value",
+											"value": "7b8ede2fefbc51dca025ad10318975638cf05653e1604b5922f7c1cdfedc6ff4",
+											"type": "string"
+										},
+										{
+											"key": "key",
+											"value": "x-api-key",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/campaign",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"campaign"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/api",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LIST",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/api",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/apis/64f89e83dcdd0bb34617baaf",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"apis",
+								"64f89e83dcdd0bb34617baaf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Wisdom 12\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/api/65f326bc51649fd2e8773589",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"api",
+								"65f326bc51649fd2e8773589"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/apis/64f89f3e11b0887f80f42a21",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"apis",
+								"64f89f3e11b0887f80f42a21"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"woparaocha49+test@gmail.com\",\n    \"password\": \"wisdom123\",\n    \"company\": {\n        \"name\": \"Company 1\",\n        \"website\": \"Company website\"\n    },\n    \"firstName\": \"Wisdom\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/register",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "wisdom@linkedly.ai",
+											"description": "email address of user",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "wisdom123",
+											"description": "password of user",
+											"type": "text"
+										},
+										{
+											"key": "firstName",
+											"value": "Wisdom",
+											"type": "text"
+										},
+										{
+											"key": "lastname",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{base_uri}}/auth/register",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"auth",
+										"register"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+								},
+								{
+									"key": "X-DNS-Prefetch-Control",
+									"value": "off"
+								},
+								{
+									"key": "Expect-CT",
+									"value": "max-age=0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Permitted-Cross-Domain-Policies",
+									"value": "none"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "no-referrer"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "648"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"288-hk27YbrwGGspD2FSTjxHGNh84zI\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 16 Dec 2023 17:28:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"role\": \"user\",\n        \"isEmailVerified\": false,\n        \"email\": \"wisdom@linkedly.ai\",\n        \"firstName\": \"Wisdom\",\n        \"id\": \"657dde3ae0c68f3d90dfd325\"\n    },\n    \"tokens\": {\n        \"access\": {\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MDI3NDc3MDYsImV4cCI6MTcwMjc0OTUwNiwidHlwZSI6ImFjY2VzcyJ9.5K_F289eT9haBS-yJ2ezRr8OvzNVHZ0EB_E6njI1hZE\",\n            \"expires\": \"2023-12-16T17:58:26.766Z\"\n        },\n        \"refresh\": {\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MDI3NDc3MDYsImV4cCI6MTcwNTMzOTcwNiwidHlwZSI6InJlZnJlc2gifQ.k72LumbaE0Y5VlqFulV6AGjR_ggOjfv_mPmfmC0wQBE\",\n            \"expires\": \"2024-01-15T17:28:26.771Z\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "woparaocha49@gmail.com",
+									"description": "email address of user",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "wisdom123",
+									"description": "password of user",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/login",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "wisdom@linkedly.ai",
+											"description": "email address of user",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "wisdom123",
+											"description": "password of user",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{base_uri}}/auth/login",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+								},
+								{
+									"key": "X-DNS-Prefetch-Control",
+									"value": "off"
+								},
+								{
+									"key": "Expect-CT",
+									"value": "max-age=0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Permitted-Cross-Domain-Policies",
+									"value": "none"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "no-referrer"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "648"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"288-NOLyOIZoLqhWTZ+tmKaCzytvlhc\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 26 Dec 2023 10:09:25 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"role\": \"user\",\n        \"isEmailVerified\": false,\n        \"email\": \"wisdom@linkedly.ai\",\n        \"firstName\": \"Wisdom\",\n        \"id\": \"657dde3ae0c68f3d90dfd325\"\n    },\n    \"tokens\": {\n        \"access\": {\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MDM1ODUzNjUsImV4cCI6MjQ4MTE4NTM2NSwidHlwZSI6ImFjY2VzcyJ9.H6kLplJ04-NW5Ca5a-Kb74SbYUPZgR-K08qb7TIkM2M\",\n            \"expires\": \"2048-08-16T10:09:25.509Z\"\n        },\n        \"refresh\": {\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MDM1ODUzNjUsImV4cCI6MTcwNjE3NzM2NSwidHlwZSI6InJlZnJlc2gifQ.oocOIH_RjShd-GZsrV8-C0eS9Y7DTh05h7PMvXJQxew\",\n            \"expires\": \"2024-01-25T10:09:25.511Z\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "refresh access",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MTA0MzIzOTcsImV4cCI6MTcxMzAyMDc5NywidHlwZSI6InJlZnJlc2gifQ.tjv5OucphOOUHf2htqXhdPy0d7_13sMDbCYSHgjLjLI\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/refresh-tokens",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"refresh-tokens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "send-verification-email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "woparaocha49@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/send-verification-email",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"send-verification-email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "verify email",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "token",
+									"value": "woparaocha49@gmail.com",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NGRjOTVmYjc3MDEzZmM3YmI0YThiZTEiLCJpYXQiOjE2OTgxMTY4MzYsImV4cCI6MTY5ODExNzQzNiwidHlwZSI6InZlcmlmeUVtYWlsIn0.xp3F1Ol-B4-_IQGUXOYQzn9TwuIm7Rsmx0H9cGm8o7E",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"verify-email"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NGRjOTVmYjc3MDEzZmM3YmI0YThiZTEiLCJpYXQiOjE2OTgxMTY4MzYsImV4cCI6MTY5ODExNzQzNiwidHlwZSI6InZlcmlmeUVtYWlsIn0.xp3F1Ol-B4-_IQGUXOYQzn9TwuIm7Rsmx0H9cGm8o7E"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reset password",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"password\":\"wisdom123@\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/reset-password?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NGRjOTVmYjc3MDEzZmM3YmI0YThiZTEiLCJpYXQiOjE2OTcyMDQyNDEsImV4cCI6MTY5NzIwNDg0MSwidHlwZSI6InJlc2V0UGFzc3dvcmQifQ.K-otBi0yobfKwbcwTrDq5Ybv9D0AEVmkSdJBGoPO9sA",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"reset-password"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NGRjOTVmYjc3MDEzZmM3YmI0YThiZTEiLCJpYXQiOjE2OTcyMDQyNDEsImV4cCI6MTY5NzIwNDg0MSwidHlwZSI6InJlc2V0UGFzc3dvcmQifQ.K-otBi0yobfKwbcwTrDq5Ybv9D0AEVmkSdJBGoPO9sA"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/users/657dde3ae0c68f3d90dfd325",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"users",
+								"657dde3ae0c68f3d90dfd325"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"notification\": {\n        \"profileLoggedOut\": false\n        // \"notEnoughCredits\": false\n        // \"campaignPaused\": true\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/users/657dde3ae0c68f3d90dfd325",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"users",
+								"657dde3ae0c68f3d90dfd325"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Forgot password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "info@block6.tech",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/forgot-password",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"forgot-password"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Team",
+			"item": [
+				{
+					"name": "Invites",
+					"item": [
+						{
+							"name": "send-team-invite",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"email\": \"lol\"}"
+								},
+								"url": {
+									"raw": "{{base_uri}}/team/send-invite",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"team",
+										"send-invite"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "verify invite",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "token",
+											"value": "woparaocha49@gmail.com",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{base_uri}}/team/verify-invite?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MTA3ODk3MTksImV4cCI6MTcxMDg3NjExOSwidHlwZSI6InRlYW1JbnZpdGUifQ.PHnUIi12M49BMXD7OPrtjtvILQ1rP0ATwgaSQa_r1Yc",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"team",
+										"verify-invite"
+									],
+									"query": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MTA3ODk3MTksImV4cCI6MTcxMDg3NjExOSwidHlwZSI6InRlYW1JbnZpdGUifQ.PHnUIi12M49BMXD7OPrtjtvILQ1rP0ATwgaSQa_r1Yc"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Memberships",
+					"item": [
+						{
+							"name": "Members",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/team/memberships",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"team",
+										"memberships"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "limit",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "My Team",
+					"item": [
+						{
+							"name": "Members",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/team/my-team",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"team",
+										"my-team"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "limit",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\":\"w\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/team",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"team"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"myTeamName\": \"JACK\",\n    \"activeTeamId\": null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/team",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"team"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/team/65f87dfce41cb7361267d209",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"team",
+								"65f87dfce41cb7361267d209"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Lists",
+			"item": [
+				{
+					"name": "Prospects",
+					"item": [
+						{
+							"name": "Add To List",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"to_fsd_profile\": \"urn:li:fsd_profile:ACoAAA2zxJ4B0yvYMgafV1kAEtehjGWjge16Suw\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/lists/6609c86aafd229ecc9d4e93a/prospects",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"lists",
+										"6609c86aafd229ecc9d4e93a",
+										"prospects"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Lists",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/lists/65eb7b4285c62ee1c10de423/prospects",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"lists",
+										"65eb7b4285c62ee1c10de423",
+										"prospects"
+									],
+									"query": [
+										{
+											"key": "search",
+											"value": "Highly –organise",
+											"disabled": true
+										},
+										{
+											"key": "format",
+											"value": "csv",
+											"disabled": true
+										},
+										{
+											"key": "sortBy",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "limit",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "2",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/lists/65eb7b4285c62ee1c10de423/prospects/urn:li:fsd_profile:ACoAAA5clnwBXzATA7rUWdwxe_AlRK77EzftlBo",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"lists",
+										"65eb7b4285c62ee1c10de423",
+										"prospects",
+										"urn:li:fsd_profile:ACoAAA5clnwBXzATA7rUWdwxe_AlRK77EzftlBo"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// {\n//   \"name\": \"EventsLL\",\n//   \"listType\": \"SalesNavLeads\",\n//   \"url\": \"https://www.linkedin.com/sales/lists/people/7167260868584402944?sortCriteria=CREATED_TIME&sortOrder=DESCENDING\"\n// }\n// {\n//   \"name\": \"StandardPeopleSearch_1\",\n//   \"listType\": \"StandardPeopleSearch\",\n//   \"url\": \"https://www.linkedin.com/sales/lists/people/7167260868584402944?sortCriteria=CREATED_TIME&sortOrder=DESCENDING\"\n// }\n\n{\n    \"name\": \"New Empty List 123\",\n    \"listType\": \"EmptyList\"\n}\n\n//Listy Types: 'CompanyPeople', 'EventAttendees', 'StandardPeopleSearch', 'GroupMember', 'SalesNavLeads', 'SalesNavAccountSearch', 'PostReactors', 'EmptyList'",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/lists/",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"lists",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "// {\n//   \"name\": \"EventsLL\",\n//   \"listType\": \"SalesNavLeads\",\n//   \"url\": \"https://www.linkedin.com/sales/lists/people/7167260868584402944?sortCriteria=CREATED_TIME&sortOrder=DESCENDING\"\n// }\n// {\n//   \"name\": \"StandardPeopleSearch_1\",\n//   \"listType\": \"StandardPeopleSearch\",\n//   \"url\": \"https://www.linkedin.com/sales/lists/people/7167260868584402944?sortCriteria=CREATED_TIME&sortOrder=DESCENDING\"\n// }\n\n{\n    \"name\": \"New Empty List 123\",\n    \"listType\": \"EmptyList\"\n}\n\n//Listy Types: 'CompanyPeople', 'EventAttendees', 'StandardPeopleSearch', 'GroupMember', 'SalesNavLeads', 'SalesNavAccountSearch', 'PostReactors', 'EmptyList'",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/lists/",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"lists",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+								},
+								{
+									"key": "X-DNS-Prefetch-Control",
+									"value": "off"
+								},
+								{
+									"key": "Expect-CT",
+									"value": "max-age=0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Permitted-Cross-Domain-Policies",
+									"value": "none"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "no-referrer"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "202"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"ca-yZFkZnUtdQBntabbSpz6nJ1OSp0\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 31 Mar 2024 20:32:42 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"importing\",\n    \"start\": 0,\n    \"count\": 0,\n    \"name\": \"New Empty List 123\",\n    \"listType\": \"EmptyList\",\n    \"userId\": \"657dde3ae0c68f3d90dfd325\",\n    \"scheduledAt\": \"2024-03-31T20:32:42.377Z\",\n    \"id\": \"6609c86aafd229ecc9d4e93a\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Lists",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/lists",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"lists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Wisdom\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/lists/65eb62615400b0d41b585c91",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"lists",
+								"65eb62615400b0d41b585c91"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/lists/65eb62615400b0d41b585c91",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"lists",
+								"65eb62615400b0d41b585c91"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Inbox",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/inbox/?replyfilter=unanswered",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"inbox",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "sales",
+									"description": "filter by text",
+									"disabled": true
+								},
+								{
+									"key": "readfilter",
+									"value": "unread",
+									"description": "read filters: all, archive, starred, unread",
+									"disabled": true
+								},
+								{
+									"key": "replyfilter",
+									"value": "unanswered",
+									"description": "reply filters: all, answered, unanswered"
+								},
+								{
+									"key": "sortfilter",
+									"value": "new",
+									"description": "sort filters: new, old",
+									"disabled": true
+								},
+								{
+									"key": "campaignId",
+									"value": "65a0c5365a442a0ac5775253",
+									"description": "filter by campaign Id",
+									"disabled": true
+								},
+								{
+									"key": "fsd_profile",
+									"value": "urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0",
+									"description": "filter by account fsd_profile",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/inbox/thread?type=LINKEDIN&conversationUrn=2-YjgxNDlmNjAtZmJjYS00MWU3LWFiM2YtN2Q2YjUwNDU4NGY3XzAxMg==&fsd_profile=urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"inbox",
+								"thread"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "LINKEDIN",
+									"description": "type: LINKEDIN, SALES_NAV"
+								},
+								{
+									"key": "conversationUrn",
+									"value": "2-YjgxNDlmNjAtZmJjYS00MWU3LWFiM2YtN2Q2YjUwNDU4NGY3XzAxMg==",
+									"description": "conversation urn"
+								},
+								{
+									"key": "fsd_profile",
+									"value": "urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"type\": \"LINKEDIN\",\n    \"from\": \"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0\", //wisdom\n    \"to\": \"urn:li:fsd_profile:ACoAAD2593gBrNjrmOV6vHMGh9p4HHyyTxwPlyI\",\n    \"text\": \"Hello how are you 3\"\n}\n\n// {\n//     \"type\": \"SALES_NAV\",\n//     \"from\": \"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0\", //wisdom\n//      \"to\": \"urn:li:fs_salesProfile:(ACwAAD2593gBxm3KBpVfqi0y-InCPkQ0i9O3y2o,NAME_SEARCH, jihuhiutt8)\",\n//     \"text\": \"Hello how are you 9ss.s11\"\n//     // \"threadId\": \"2-MzY3YWY3MjItZGE1Zi00YzlmLWEwYzUtOTQ0NWZhZDFiM2JhXzAxMg==\"\n// }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/inbox/send",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"inbox",
+								"send"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "star",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"action\": \"add\", //add or remove\n    \"fsd_profile\": \"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0\", //wisdom\n    \"msg_conversation\": \"urn:li:msg_conversation:(urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0,2-YjRlZDc3NzEtOWJlYy00NTBiLTlmMjgtMDVmNWUyNGU5MDJmXzAxMA==)\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/inbox/star",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"inbox",
+								"star"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "archive",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// {\n//     \"type\": \"LINKEDIN\", //LINKEDIN OR SALES_NAV\n//     \"fsd_profile\": \"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0\", //wisdom\n//     \"msg_conversation\": \"urn:li:msg_conversation:(urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0,2-YjRlZDc3NzEtOWJlYy00NTBiLTlmMjgtMDVmNWUyNGU5MDJmXzAxMA==)\"\n// }\n\n{\n    \"type\": \"SALES_NAV\", //LINKEDIN OR SALES_NAV\n    \"fsd_profile\": \"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0\", //wisdom\n    \"threadId\": \"2-MzY3YWY3MjItZGE1Zi00YzlmLWEwYzUtOTQ0NWZhZDFiM2JhXzAxMg==\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/inbox/archive",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"inbox",
+								"archive"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task",
+			"item": [
+				{
+					"name": "Count",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/task/count?sortBy&limit&page",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"task",
+								"count"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null
+								},
+								{
+									"key": "limit",
+									"value": null
+								},
+								{
+									"key": "page",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pending",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/task",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"task"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "Sortby",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n     \"state\": {\n      \"parameters\" : {\n            \"comparison\" : \"ALL\"\n        }\n    }\n    \n}\n\n\n\n\n// {\n//     \"state\": {\n//         \"parameters\": {\n//             \"input\": \"How are you doing?\",\n//             \"fallback_input\": \"Hey wisdom Hows it going??\"\n//         }\n//     }\n//     // \"scheduledAt\":  \"2025-03-08T19:23:47.667Z\"\n// }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/task/66047084fa26544876890c5e",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"task",
+								"66047084fa26544876890c5e"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "Sortby",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Analytic",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"dates\": {\n        \"start\": \"2024-03-12T11:10:32.776+0000\",\n        \"end\": \"2024-03-14T11:10:32.776+0000\"\n    },\n    \"campaignIds\": [\n    ],\n    \"names\": [],\n    \"from_fsd_profiles\": [],\n    \"to_fsd_profiles\": []\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/analytic",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"analytic"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profile",
+			"item": [
+				{
+					"name": "View | Profile data",
+					"item": [
+						{
+							"name": "GET",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/profile/urn:li:fsd_profile:ACoAAAH9MUQBD50PVIvMfzGrsj-oLS7OZHWQx8Y",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"profile",
+										"urn:li:fsd_profile:ACoAAAH9MUQBD50PVIvMfzGrsj-oLS7OZHWQx8Y"
+									],
+									"query": [
+										{
+											"key": "campaignId",
+											"value": "s",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/profile?fsd_profile=urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"profile"
+							],
+							"query": [
+								{
+									"key": "fsd_profile",
+									"value": "urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0"
+								},
+								{
+									"key": "search",
+									"value": "gb",
+									"disabled": true
+								},
+								{
+									"key": "campaignId",
+									"value": "s",
+									"disabled": true
+								},
+								{
+									"key": "sortBy",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"cookie\": \"AMCV_14215E3D5995C57C0A495C55%40AdobeOrg=-637568504%7CMCIDTS%7C19730%7CMCMID%7C84047537836347025303651544573124201876%7CMCAAMLH-1705253666%7C6%7CMCAAMB-1705253666%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1704656066s%7CNONE%7CMCCIDH%7C2125259924%7CvVersion%7C5.1.1; AMCVS_14215E3D5995C57C0A495C55%40AdobeOrg=1; li_theme_set=app; timezone=Europe/London; li_at=AQEDAT2593gDlEtuAAABjOT9bQEAAAGNCQnxAVYArb0LMX63MSXMfXW6rwPMut1uhK4zRhSHsx1Ax5j-Z26V-2oKRjSAh30HBwSVJz4sSsbE1B-xSBrrseUa_jJ8XpSzXpLgSxIO3wNhVhYZEYLIx6xM; lidc=\\\"b=TB88:s=T:r=T:a=T:p=T:g=3648:u=47:x=1:i=1704648863:t=1704734499:v=2:sig=AQGeqif8EyxhXa1NCMdGcQ_b8K2kFqnh\\\"; li_alerts=e30=; li_gc=MTswOzE3MDQ2NDg4NTc7MjswMjFY7NfbKAGPh3LGDelzW/7/8ZCirEVQnMQ+eUKPiODm6A==; li_theme=light; bcookie=\\\"v=2&6e747d5c-286d-4f7f-8e7e-31c073d571a5\\\"; aam_uuid=83892211734025510493630969260297174623; li_mc=MTsyMTsxNzA0NjQ4ODYzOzI7MDIxgnmF3L3lV5KNG6HyVzdZX5HUCiOJGrYM9Li6M7eAoJY=; JSESSIONID=\\\"ajax:5862089003049242446\\\"; liap=true; bscookie=\\\"v=1&20240107173417b88f4197-79b8-4582-8fa2-29b4cad82d49AQGxEnCuSKbgTsvNPY2Ia8SSF0-ite_9\\\"; lang=v=2&lang=en-us; li_rm=AQHM-bcKJofypwAAAYzk_VZhXtdDGTFRfCNBomdK-wzlJB1vQJUpGJF1vMJ8aSW0wbRr1iqQUN8ONZ2WhvOHdg_FXKqwallIeVJZmOKgqo_iqlSr1F7N9nb_\"\n}\n\n\n\n// {\n//     \"cookie\": \"li_gc=MTsyMTsxNzA4NDE2NzI4OzI7MDIxMO1SqdxaFMcRRwGYHFBt3sAxvIWdZS7NrdNeat0aMTM=; bcookie=\\\"v=2&d346a86c-3545-45e1-8883-704b0730456a\\\"; bscookie=\\\"v=1&20240220081208fa3f6cd9-78f3-4ca7-82ce-f63b547d2057AQGS7c-YCeSlKet_-9i_i0ACs797HXX0\\\"; li_alerts=e30=; timezone=Europe\\/London; li_theme=light; li_theme_set=app; dfpfpt=51ddf5b9afe74c069f9b49adc26b3956; PLAY_LANG=en; __ssid=585c23fe-d601-47dc-ab9b-b2e56d198cb0; li_er=v=1&r=urn:li:contract:232341393&t=1706873388752&g=MDIxmpZ2POIj3wJbWHrng3htZf6kaKU9v2gmKfPXeq+zcGc=; u_tz=GMT; li_rm=AQEUB3YCXXx9KwAAAY3fC7RG1ALPqE6pOpg0MXUV3IOrA2THfPa_9U3Tdow3o8iRf10yZdJd7BmdWIc2LFoqY_w4qoW85Azgn43jGAFGnYrgO4Lt9XFaPY2H; visit=v=1&M; liap=true; JSESSIONID=\\\"ajax:4571807902313792157\\\"; lang=v=2&lang=en-US; PLAY_SESSION=eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7InNlc3Npb25faWQiOiIzM2M0ZWFkNy1kZDI1LTQ1MmItYmQ0Yi1mOTg1MzNjZWM3NDl8MTcwOTU3ODg2OSIsImFsbG93bGlzdCI6Int9IiwicmVjZW50bHktc2VhcmNoZWQiOiIiLCJyZWZlcnJhbC11cmwiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaGVscC9saW5rZWRpbi9hbnN3ZXIvYTU1MTMzNy9saXN0aW5nLWluc3RhbnQtbWVzc2VuZ2VyLWFjY291bnRzLWluLXRoZS1jb250YWN0LWluZm8tc2VjdGlvbi1vZi15b3VyLXByb2ZpbGUiLCJyZWNlbnRseS12aWV3ZWQiOiIiLCJDUFQtaWQiOiLDtMKIw4hcdTAwMEVrwpLDuzJZL8O8wqF3XHUwMDAwXHUwMDBCTCIsImZsb3dUcmFja2luZ0lkIjoiSjN3M1h0YTlSVStWbFJYT0VqYTdOZz09IiwiZXhwZXJpZW5jZSI6IiIsInRyayI6IiJ9LCJuYmYiOjE3MDk1Nzg4NjksImlhdCI6MTcwOTU3ODg2OX0.SBIMMt3vyOxEo15zUoLGGCJfSkw8KnD4OcLctVboiWg; li_at=AQEFARABAAAAAA6Jhd4AAAGN3wwN5QAAAY4xYneYTgAAs3VybjpsaTplbnRlcnByaXNlQXV0aFRva2VuOmVKeGpaQUFDYmdtL1dTQ2FhNHRlT1lnV2V1VnhpQkhFaUhYSmpBWXpORGdQK1RNd0FnQ1dRUWNnXnVybjpsaTplbnRlcnByaXNlUHJvZmlsZToodXJuOmxpOmVudGVycHJpc2VBY2NvdW50OjE4NjE0MjM2MiwxNzk1ODA1MzUpXnVybjpsaTptZW1iZXI6MzU3OTczMTAzaX0WcvAarfH8WBmIBEEY_p1_fPyauYanhiyJ6621NDYD7GlhpsgemAhn70mxBgqAXLZ7gw1i-EOd7fyGviJ7lgXtH0yTil4F2RqrqvwW-mFgCh7zb3s8Z6k82BvJqsxBf3jojzPPnvRHIcNR9ace5oGZu0Ltj8_5IW9d3YunU1AKsBVzFuwNdbZR44IttlaMIWAIog; li_ep_auth_context=AHRhcHA9c2FsZXNOYXZpZ2F0b3IsYWlkPTE4NjE0MjM2MixpaWQ9MzE3MzQzOTM4LHBpZD0xNzk1ODA1MzUsZXhwPTE3MTIyMTI3MjA1NjIsY3VyPXRydWUsc2lkPTY3MTcyODIwNyxjaWQ9MTU2NDc2NDUwNwGyLLDtde2RATO68aDREvHp29Yamw; li_a=AQJ2PTEmc2FsZXNfY2lkPTMxNzM0MzkzOCUzQSUzQTMxNzM1NjczOCUzQSUzQXRpZXIxJTNBJTNBMTg2MTQyMzYyPkXvwHhd7Cy2lZxtV2tS1vblOgo; fptctx2=taBcrIH61PuCVH7eNCyH0FFaWZWIHTJWSYlBtG47cVv%252b9VezsIx0CrR1KispZfdhaRTj46JpUxUpYhdutGRaKHuHtTyoPcumtKmRuL3eu%252fE76g%252fYJje08nfX%252fv%252fIhbkPCyAZZrxQkAAYh8bFfnYf7NiSvs7FLg4rkKoNC1EW5WLlIRf%252fvVg8ml5BXj9MQJYvZvKnJth75423DJSdWjPhHndyJwwOOiEI%252fcaGgAXQQGrgq3vgQEIjmoYexyZffqPqzgkEbTVlXnVJC3jFDZl7fGeaBEBQpLnK0HhUn3%252bevoaWdltQl1c7eVqJwV5QOnN0myI0HCNC%252bLOhxKH7DXworddV6Qhc2SMkco%252bSr2UxOok%253d; df_ts=1709925920802; lidc=\\\"b=TB03:s=T:r=T:a=T:p=T:g=5886:u=2805:x=1:i=1710182102:t=1710268502:v=2:sig=AQGFUjDb3WMQUGeqgmKzzutlhm63DbEB\\\"; UserMatchHistory=AQJQqUR2BvxhWQAAAY4vgHlGMwpIV24MaaaNr4O7g8nTcHg7VqNFRrw709XqOiqyTh2_TLD9-8FfLDV0LRw9GZoceoVN0BewgZOs8Jzkmbi06StSBa7xVBHfMEc5_SYNWayLNOLH6AhZYbkv0e2CpHX7J4h_VfiTlj-S7gdr9h1zOLuN6cAw3Ph_bLzKKaIrYIgIbgj0rkiom7agrt6G04jWvn1xY-gFMuf6e1TiZDF9VWS96ySm4RcmRTVEDDznjClfDsA; li_mc=MTsyMTsxNzEwMTk0NDM5OzI7MDIx3d+f1dn8HSbZJQ0ZkWdkFe45wyk+EKDMaZ+0JQHK1Cw=\"\n//     // ,\"proxy\": {\n//     //     \"host\": \"brd.superproxy.io\",\n//     //     \"port\": \"22225\",\n//     //     \"username\": \"brd-customer-hl_14f7a8af-zone-data_center-ip-206.204.4.192\",\n//     //     \"password\": \"lkehgi48xxn0\"\n    // }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/profile",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"profile"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "pageookie",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"proxy\": {\n        \"useSystem\": true\n    },\n    \"dailyTaskLimit\": 4,\n    \"dailyConnectionLimit\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/profile/urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"profile",
+								"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "Sortby",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/profile/urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"profile",
+								"urn:li:fsd_profile:ACoAABVWPG8BT_jFPy7A1chptJ7VYotx0ovawy0"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "Sortby",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test Proxy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"host\": \"brd.superproxy.io\",\n    \"port\": 22225\n    ,\n    \"username\": \"brd-customer-hl_14f7a8af-zone-data_center-ip-121.91.82.80\",\n    \"password\": \"lkehgi48xxn0\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/profile/test-proxy",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"profile",
+								"test-proxy"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Campaign",
+			"item": [
+				{
+					"name": "State",
+					"item": [
+						{
+							"name": "UPDATE",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"input\": \"Dynamic message content {firstnmae} {location}: K\",\n    \"fallback_input\": \"Fallback message content\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_uri}}/campaign/65a0c5365a442a0ac5775253/state/65f200bda27bdea07a6225ef",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"campaign",
+										"65a0c5365a442a0ac5775253",
+										"state",
+										"65f200bda27bdea07a6225ef"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "limit",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "pageookie",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Stats",
+					"item": [
+						{
+							"name": "GET",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/campaign/65a0c5365a442a0ac5775253/stats",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"campaign",
+										"65a0c5365a442a0ac5775253",
+										"stats"
+									],
+									"query": [
+										{
+											"key": "sortBy",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "limit",
+											"value": null,
+											"disabled": true
+										},
+										{
+											"key": "pageookie",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Stats Example",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base_uri}}/campaign/65a0c5365a442a0ac5775253/stats",
+											"host": [
+												"{{base_uri}}"
+											],
+											"path": [
+												"campaign",
+												"65a0c5365a442a0ac5775253",
+												"stats"
+											],
+											"query": [
+												{
+													"key": "sortBy",
+													"value": null,
+													"disabled": true
+												},
+												{
+													"key": "limit",
+													"value": null,
+													"disabled": true
+												},
+												{
+													"key": "pageookie",
+													"value": null,
+													"disabled": true
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Security-Policy",
+											"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+										},
+										{
+											"key": "X-DNS-Prefetch-Control",
+											"value": "off"
+										},
+										{
+											"key": "Expect-CT",
+											"value": "max-age=0"
+										},
+										{
+											"key": "X-Frame-Options",
+											"value": "SAMEORIGIN"
+										},
+										{
+											"key": "Strict-Transport-Security",
+											"value": "max-age=15552000; includeSubDomains"
+										},
+										{
+											"key": "X-Download-Options",
+											"value": "noopen"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-Permitted-Cross-Domain-Policies",
+											"value": "none"
+										},
+										{
+											"key": "Referrer-Policy",
+											"value": "no-referrer"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "0"
+										},
+										{
+											"key": "Access-Control-Allow-Origin",
+											"value": "*"
+										},
+										{
+											"key": "Content-Type",
+											"value": "application/json; charset=utf-8"
+										},
+										{
+											"key": "Content-Length",
+											"value": "42"
+										},
+										{
+											"key": "ETag",
+											"value": "W/\"2a-a9EYaNbebh3/WfiMFCcpKoPvYd4\""
+										},
+										{
+											"key": "Vary",
+											"value": "Accept-Encoding"
+										},
+										{
+											"key": "Date",
+											"value": "Tue, 02 Apr 2024 16:53:33 GMT"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=5"
+										}
+									],
+									"cookie": [],
+									"body": "{\n    \"total\": 554,\n    \"inProgress\": 2,\n    \"completed\": 2\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"The Campaign name\"\n}\n\n\n// campaign status: \n// - draft - no task has been sequenced.... everthing in the campaign can be editted\n// - paused - campaign not running.. states can only be modified, not deleted or re-arranged\n// - active - same as paused\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/campaign",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"campaign"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "pageookie",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"\"\n}\n\n\n// campaign status: \n// - draft - no task has been sequenced.... everthing in the campaign can be editted\n// - paused - campaign not running.. states can only be modified, not deleted or re-arranged\n// - active - same as paused\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/campaign",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"campaign"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "pageookie",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"\"\n}\n\n\n// campaign status: \n// - draft - no task has been sequenced.... everthing in the campaign can be editted\n// - paused - campaign not running.. states can only be modified, not deleted or re-arranged\n// - active - same as paused\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/campaign",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"campaign"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "pageookie",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"\"\n}\n\n\n// campaign status: \n// - draft - no task has been sequenced.... everthing in the campaign can be editted\n// - paused - campaign not running.. states can only be modified, not deleted or re-arranged\n// - active - same as paused\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/campaign",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"campaign"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "pageookie",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Wisdom\",\n    \"states\": {\n        \"init\": {\n            \"task\": \"send_message\",\n            \"parameters\": {\n                \"input\": \"Dynamic message content {firstnmae} {location}\",\n                \"fallback_input\": \"Fallback message content\"\n            },\n            \"transitions\": {\n                \"success\": \"end\",\n                \"fail\": \"end\"\n            }\n        }\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/campaign/65f7395243189f046a7cd93e",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"campaign",
+								"65f7395243189f046a7cd93e"
+							],
+							"query": [
+								{
+									"key": "sortBy",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "pageookie",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Billing",
+			"item": [
+				{
+					"name": "Webhook",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/v1/webhooks",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"v1",
+								"webhooks"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OAuth 2.0",
+			"item": [
+				{
+					"name": "Google | Redirect",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_uri}}/auth/google",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"google"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Google | Send Token",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"code\": \"4%2F0AeaYSHD4GhICuAtg2aUrEvysoJzroA7xhegyhrWa00P3Y804hug4YY5ItqvKTelwMHjfVw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_uri}}/auth/google",
+							"host": [
+								"{{base_uri}}"
+							],
+							"path": [
+								"auth",
+								"google"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "4%2F0AeaYSHCZ1s-_wL7LeoSMSxVHJcHdV1SEhbHkAI9A7tSEcCs0fKRcNibaiYOXrk6KwZYajg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Google | Send Token",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{base_uri}}/auth/google?code=4%2F0AeaYSHAT_GocblgM2SlhzYC0rw2Fv_5FAMqPdTbkAel-oHIgpDNePpwUBmhT8lHW8IkmiQ%26scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%26authuser=0%26prompt=none",
+									"host": [
+										"{{base_uri}}"
+									],
+									"path": [
+										"auth",
+										"google"
+									],
+									"query": [
+										{
+											"key": "code",
+											"value": "4%2F0AeaYSHAT_GocblgM2SlhzYC0rw2Fv_5FAMqPdTbkAel-oHIgpDNePpwUBmhT8lHW8IkmiQ&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+								},
+								{
+									"key": "X-DNS-Prefetch-Control",
+									"value": "off"
+								},
+								{
+									"key": "Expect-CT",
+									"value": "max-age=0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "X-Download-Options",
+									"value": "noopen"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-Permitted-Cross-Domain-Policies",
+									"value": "none"
+								},
+								{
+									"key": "Referrer-Policy",
+									"value": "no-referrer"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"447-18hbd67tihxB84zAnZbErlSv9v0\""
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Encoding"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 01 Apr 2024 11:15:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"subscription\": {\n            \"license\": {\n                \"quantity\": 0\n            },\n            \"credit\": {\n                \"balance\": 0,\n                \"lastReset\": \"2024-03-28T10:38:51.549Z\"\n            }\n        },\n        \"company\": {\n            \"name\": \"Company 1\",\n            \"website\": \"Company website\"\n        },\n        \"google\": {\n            \"activated\": true,\n            \"socialId\": \"google-106594225810334011277\"\n        },\n        \"team\": {\n            \"activeTeamId\": null\n        },\n        \"notification\": {\n            \"profileLoggedOut\": true,\n            \"notEnoughCredits\": true,\n            \"campaignPaused\": true\n        },\n        \"role\": \"user\",\n        \"isEmailVerified\": true,\n        \"analytic\": [\n            \"connect\",\n            \"follow\",\n            \"send_message\"\n        ],\n        \"email\": \"woparaocha49@gmail.com\",\n        \"linkedinProfileUrl\": \"TEXT_SOMETHING\",\n        \"firstName\": \"W\",\n        \"lastName\": \"O\",\n        \"id\": \"660548bb71e8180a5a235f4a\"\n    },\n    \"tokens\": {\n        \"access\": {\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjA1NDhiYjcxZTgxODBhNWEyMzVmNGEiLCJpYXQiOjE3MTE5NzAxNTksImV4cCI6MjQ4OTU3MDE1OSwidHlwZSI6ImFjY2VzcyJ9.gFlGwdYac39PG-9MdX83VC0WujESa_L41MUGFq3LFlI\",\n            \"expires\": \"2048-11-21T11:15:59.853Z\"\n        },\n        \"refresh\": {\n            \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjA1NDhiYjcxZTgxODBhNWEyMzVmNGEiLCJpYXQiOjE3MTE5NzAxNTksImV4cCI6MTcxNzE1NDE1OSwidHlwZSI6InJlZnJlc2gifQ.eY0pvv_1Z60NK8NVEEh1vE9bTxKPO7-um-qjetoJHf0\",\n            \"expires\": \"2024-05-31T11:15:59.855Z\"\n        }\n    }\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{access_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_uri",
+			"value": "https://api.linkedly.ai/v1",
+			"type": "string",
+			"disabled": true
+		},
+		{
+			"key": "access_token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NTdkZGUzYWUwYzY4ZjNkOTBkZmQzMjUiLCJpYXQiOjE3MTA2MDM5NTAsImV4cCI6MjQ4ODIwMzk1MCwidHlwZSI6ImFjY2VzcyJ9.bzxWeB0u2boK7W14ObEOsm1ByrEGj9HMxQc5hzsUJfY",
+			"type": "string"
+		},
+		{
+			"key": "base_uri",
+			"value": "http://localhost:3000/v1",
+			"type": "string"
+		}
+	]
+}
